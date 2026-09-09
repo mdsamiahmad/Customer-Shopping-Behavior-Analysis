@@ -4,6 +4,8 @@
 
 This project analyzes customer shopping behavior to identify purchasing patterns, customer segments, product performance, revenue drivers, and factors influencing customer spending.
 
+---
+
 ## 📌 Project Overview
 
 Understanding customer behavior is important for improving sales, customer retention, marketing effectiveness, and overall business performance.
@@ -18,6 +20,8 @@ This project analyzes customer transaction data to answer questions such as:
 - Which shipping preferences are most common?
 - How does purchase frequency affect customer value?
 
+---
+
 ## 🎯 Objectives
 
 - Clean and preprocess the raw customer data
@@ -28,6 +32,8 @@ This project analyzes customer transaction data to answer questions such as:
 - Analyze subscription and discount behavior
 - Build an interactive Power BI dashboard
 - Generate actionable business insights
+
+---
 
 ## 🛠️ Tools & Technologies
 
@@ -42,6 +48,8 @@ This project analyzes customer transaction data to answer questions such as:
 | Power BI | Dashboard & Reporting |
 | Jupyter Notebook | Python Analysis |
 | GitHub | Version Control |
+
+---
 
 ## 🔄 Project Workflow
 
@@ -61,127 +69,165 @@ Power BI Dashboard
 Business Insights
      ↓
 Recommendations
-📊 Dataset
+```
+
+---
+
+## 📊 Dataset
 
 The dataset contains customer shopping and transaction information, including:
 
-Customer Information
-Customer ID
-Age
-Gender
-Location
-Subscription Status
-Purchase Information
-Item Purchased
-Category
-Purchase Amount
-Season
-Size
-Color
-Customer Behavior
-Previous Purchases
-Purchase Frequency
-Discount Applied
-Promo Code Used
-Review Rating
-Shipping Type
-🐍 Python Analysis
+### Customer Information
+
+- Customer ID
+- Age
+- Gender
+- Location
+- Subscription Status
+
+### Purchase Information
+
+- Item Purchased
+- Category
+- Purchase Amount
+- Season
+- Size
+- Color
+
+### Customer Behavior
+
+- Previous Purchases
+- Purchase Frequency
+- Discount Applied
+- Promo Code Used
+- Review Rating
+- Shipping Type
+
+---
+
+## 🐍 Python Analysis
 
 Python was used for data cleaning, preprocessing, exploratory analysis, and visualization.
 
-Key Tasks
-Loaded the dataset using Pandas
-Checked data types and dataset structure
-Identified missing values
-Checked duplicate records
-Cleaned and standardized the data
-Performed descriptive statistics
-Created useful derived features
-Analyzed customer demographics
-Analyzed purchasing behavior
-Created visualizations to identify trends
-Analysis Areas
-Revenue by gender
-Revenue by age group
-Product performance
-Category performance
-Purchase frequency
-Discount behavior
-Subscription behavior
-Review ratings
-Shipping preferences
-🗄️ SQL Analysis
+### Key Tasks
+
+- Loaded the dataset using Pandas
+- Checked data types and dataset structure
+- Identified missing values
+- Checked duplicate records
+- Cleaned and standardized the data
+- Performed descriptive statistics
+- Created useful derived features
+- Analyzed customer demographics
+- Analyzed purchasing behavior
+- Created visualizations to identify trends
+
+### Analysis Areas
+
+- Revenue by gender
+- Revenue by age group
+- Product performance
+- Category performance
+- Purchase frequency
+- Discount behavior
+- Subscription behavior
+- Review ratings
+- Shipping preferences
+
+---
+
+## 🗄️ SQL Analysis
 
 SQL was used to perform business-oriented analysis and answer important questions.
 
-Key Business Questions
-What is the total revenue?
-Which customer segment generates the highest revenue?
-Which products have the highest ratings?
-Do subscribers spend more than non-subscribers?
-Which categories generate the most revenue?
-Which products are frequently purchased with discounts?
-Which age groups contribute the most revenue?
-Who are the highest-value customers?
-What is the relationship between purchase frequency and spending?
-Which shipping type is most commonly used?
-📈 Power BI Dashboard
+### Key Business Questions
+
+1. What is the total revenue?
+2. Which customer segment generates the highest revenue?
+3. Which products have the highest ratings?
+4. Do subscribers spend more than non-subscribers?
+5. Which categories generate the most revenue?
+6. Which products are frequently purchased with discounts?
+7. Which age groups contribute the most revenue?
+8. Who are the highest-value customers?
+9. What is the relationship between purchase frequency and spending?
+10. Which shipping type is most commonly used?
+
+---
+
+## 📈 Power BI Dashboard
 
 Power BI was used to create an interactive dashboard for presenting the analysis.
 
-Dashboard Includes
-💰 Revenue Analysis
-👥 Customer Demographics
-🛍️ Product Analysis
-📦 Category Performance
-🎯 Customer Segmentation
-🎟️ Discount Analysis
-⭐ Review Rating Analysis
-🚚 Shipping Analysis
-🔔 Subscription Analysis
-Key KPIs
-Total Revenue
-Total Customers
-Total Transactions
-Average Purchase Amount
-Average Review Rating
-Subscriber vs Non-Subscriber Revenue
-Revenue by Category
-Revenue by Age Group
-💡 Business Insights
+### Dashboard Includes
+
+- 💰 Revenue Analysis
+- 👥 Customer Demographics
+- 🛍️ Product Analysis
+- 📦 Category Performance
+- 🎯 Customer Segmentation
+- 🎟️ Discount Analysis
+- ⭐ Review Rating Analysis
+- 🚚 Shipping Analysis
+- 🔔 Subscription Analysis
+
+### Key KPIs
+
+- Total Revenue
+- Total Customers
+- Total Transactions
+- Average Purchase Amount
+- Average Review Rating
+- Subscriber vs Non-Subscriber Revenue
+- Revenue by Category
+- Revenue by Age Group
+
+---
+
+## 💡 Business Insights
 
 The analysis helps identify:
 
-High-value customer segments
-Best-performing products
-High-revenue categories
-Customer purchasing patterns
-Discount-dependent customers
-Subscription opportunities
-Customer retention opportunities
-Differences in spending behavior across demographics
-🚀 Business Recommendations
-1. Customer Segmentation
+- High-value customer segments
+- Best-performing products
+- High-revenue categories
+- Customer purchasing patterns
+- Discount-dependent customers
+- Subscription opportunities
+- Customer retention opportunities
+- Differences in spending behavior across demographics
 
-Create targeted marketing campaigns for high-value and loyal customers.
+> **Note:** Replace these general points with your actual findings and numbers from the analysis. Specific results are much stronger than generic statements.
 
-2. Subscription Growth
+---
 
-Target frequent non-subscribers with personalized subscription offers.
+## 🚀 Business Recommendations
 
-3. Discount Optimization
+### 1. Customer Segmentation
 
-Use discounts strategically instead of offering discounts to customers who are already likely to purchase.
+Create targeted marketing campaigns for high-value and loyal customers instead of using the same strategy for every customer.
 
-4. Product Strategy
+### 2. Subscription Growth
 
-Focus marketing efforts on high-performing products and investigate underperforming categories.
+Target frequent non-subscribers with personalized subscription offers to increase customer retention and recurring purchases.
 
-5. Customer Retention
+### 3. Discount Optimization
 
-Develop loyalty programs and personalized offers for repeat customers.
+Use discounts strategically and avoid unnecessary discounts for customers who are already likely to purchase.
 
-📂 Project Structure
+### 4. Product Strategy
+
+Focus marketing efforts on high-performing products and investigate underperforming categories for potential improvement.
+
+### 5. Customer Retention
+
+Develop loyalty programs and personalized offers for repeat customers to increase their lifetime value.
+
+---
+
+## 📂 Project Structure
+
+```text
 Customer-Shopping-Behavior-Analysis/
 │
 ├── Dataset/
@@ -200,36 +246,69 @@ Customer-Shopping-Behavior-Analysis/
 │   └── dashboard.png
 │
 └── README.md
-⚙️ How to Run
-Clone the Repository
+```
+
+> Update the structure above if your actual GitHub folders or filenames are different.
+
+---
+
+## ⚙️ How to Run
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/mdsamiahmad/Customer-Shopping-Behavior-Analysis.git
 cd Customer-Shopping-Behavior-Analysis
-Install Dependencies
+```
+
+### 2. Install Dependencies
+
+```bash
 pip install pandas numpy matplotlib seaborn jupyter
-Run Jupyter Notebook
+```
+
+### 3. Run Jupyter Notebook
+
+```bash
 jupyter notebook
+```
 
 Open the analysis notebook and run the cells sequentially.
 
-📌 Skills Demonstrated
-Data Cleaning
-Exploratory Data Analysis
-Data Preprocessing
-Feature Engineering
-Python
-Pandas
-NumPy
-SQL
-Data Visualization
-Power BI
-Customer Segmentation
-Business Analysis
-Dashboard Development
-Data Storytelling
-🎓 Project Outcome
+### 4. Run SQL Analysis
+
+Import the cleaned dataset into your SQL database and execute the SQL queries provided in the project.
+
+### 5. Open Power BI Dashboard
+
+Open the `.pbix` file using Power BI Desktop and refresh the data connection if required.
+
+---
+
+## 📌 Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Preprocessing
+- Feature Engineering
+- Python
+- Pandas
+- NumPy
+- SQL
+- Data Visualization
+- Power BI
+- Customer Segmentation
+- Business Analysis
+- Dashboard Development
+- Data Storytelling
+
+---
+
+## 🎓 Project Outcome
 
 This project demonstrates a complete Data Analytics workflow:
 
+```text
 Data
  ↓
 Cleaning
@@ -243,13 +322,22 @@ Visualization
 Insights
  ↓
 Business Recommendations
+```
 
-It demonstrates practical skills relevant to Data Analyst, Business Analyst, and BI Analyst roles.
+It demonstrates practical skills relevant to:
 
-👨‍💻 Author
+- Data Analyst
+- Business Analyst
+- BI Analyst
 
-Sami Ahmad
+---
 
-GitHub: https://github.com/mdsamiahmad
+## 👨‍💻 Author
+
+**Sami Ahmad**
+
+GitHub: [@mdsamiahmad](https://github.com/mdsamiahmad)
+
+---
 
 ⭐ If you find this project useful, consider starring the repository.
